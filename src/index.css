@@ -1,0 +1,91 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #efefef;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mainBlock article {
+  margin: 10px auto;
+  width: 80%;
+  background-color: #fff;
+  display: grid;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+#mainBlock article figure img {
+  width: 50%;
+  height: 200px;
+  object-fit: cover;
+}
+
+#mainBlock article main {
+  background: #eeeeee7e;
+  padding: 10px;
+  box-shadow: 1px 1px 1px 1px #ccc;
+}
+#mainBlock article .block {
+  display: flex;
+  background: #fff;
+  padding: 5px;
+  border-bottom: 1px solid #ed143d40;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+span i {
+  color: crimson;
+}
+
+.block aside:nth-child(1) {
+  flex-basis: 75%;
+}
+
+.block aside:nth-child(2) {
+  flex-basis: 25%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.block aside span {
+  margin: 0 4px;
+}
+
+.contentDes {
+  display: flex;
+  padding: 10px;
+  background: #fff;
+}
+
+.contentDes p {
+  flex-basis: 50%;
+}
+
+.contentDes p:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer {
+  padding: 10px;
+  background: #fff;
+}
+
+footer a {
+  display: inline-block;
+  background-color: crimson;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
